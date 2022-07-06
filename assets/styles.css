@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-    
+
 .title-main {
     font-size: 2rem;
     font-weight: bold;
@@ -45,6 +45,7 @@
     padding-left: 15px;
     padding-top: 12px;
     padding-bottom: 12px;
+    gap: 40px;
 }
 
 #btn {
@@ -61,14 +62,16 @@
 } 
 
 #cityList {
-    display: flex;
-    flex-direction: column;
+    display: absolute;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: white 5px;
+    border: 5px white;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 2rem;
     color: white;
-    
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1px;
 }
