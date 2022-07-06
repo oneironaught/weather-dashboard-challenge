@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>My Weather Dashboard</title>
+</head>
+<body>
+    <header class="jumbotron-fluid">
+        <h1 class="title-main">Weather Dashboard</h1>
+    </header>    
+    <div class="container"></div>
+    <div class="row">
+        <div class="col-12 col-lg-3 card bg-secondary">
+            <section>
+                <form id="search-form" class="row row-cols-1">
+                    <h2>Search for a city:</h2>
+                    <input type="search" placeholder="eg. Austin, Texas" id="search-box" autocomplete="on" autocomplete-suggest aria-label="Search for a city">
+                    <button class="btn btn-primary">Search</button>    
+                </form>
+            </section>
+            <section id="city-list" class="row"></section>
+                <div class="col-8 col-xs-12" id = "cityList">Austin</div>
+                <div class="col-8 col-xs-12" id = "cityList">Chicago</div>
+                <div class="col-8 col-xs-12" id = "cityList">New York</div>
+                <div class="col-8 col-xs-12" id = "cityList">Orlando</div>
+                <div class="col-8 col-xs-12" id = "cityList">San Francisco</div>
+                <div class="col-8 col-xs-12" id = "cityList">Seattle</div>
+                <div class="col-8 col-xs-12" id = "cityList">Denver</div>
+                <div class="col-8 col-xs-12" id = "cityList">Atlanta</div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+</html>
